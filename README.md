@@ -21,7 +21,9 @@
 
 ## How to install
 
-Go to the latest [Release](), download the `dark-flat-rounded-thunderbird-theme.zip`
+Go to the latest [Release](), download the `dark-flat-rounded-thunderbird-theme.zip`.
+
+Then open the `Add-ons Manager` through the top right menu, click on the settings gear and select the downloaded file with "Install Add-on From File".
 
 ## How to build the Extension's .pxi file from scratch
 
