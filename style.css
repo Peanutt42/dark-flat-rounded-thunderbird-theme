@@ -1,0 +1,72 @@
+:root {
+	/* custom theme property */
+	--rounding-radius: 8px;
+
+	--button-border-radius: var(--rounding-radius) !important;
+	--button-border-width: 0px !important;
+	--button-border-size: 0px !important;
+	--page-nav-button-border-radius: var(--rounding-radius) !important;
+	--tree-view-bg: var(--maillist-bg) !important;
+	--layout-background-1: #18181C !important;
+}
+
+.button,
+.minimonth-nav-section,
+.minimonth-header button,
+#calendar-list>li,
+.calendar-color-box,
+.container,
+.toolbarbutton-1,
+.header-recipient {
+	border-radius: var(--rounding-radius) !important;
+	border-width: 0px !important;
+}
+
+.card-container {
+	border-radius: calc(1.5 * var(--rounding-radius)) !important;
+	border-width: 0px !important;
+}
+
+.container {
+	margin-left: 8px !important;
+	margin-right: 8px !important;
+}
+
+.button-group {
+	border-width: 0px !important;
+}
+
+.button-group>.button {
+	border-radius: 0px !important;
+	border-width: 0px !important;
+}
+
+.button-group>.button:first-child {
+	border-radius: var(--rounding-radius) 0px 0px var(--rounding-radius) !important;
+}
+
+.button-group>.button:last-child {
+	border-radius: 0px var(--rounding-radius) var(--rounding-radius) 0px !important;
+}
+
+.tabmail-tab {
+	border-radius: calc(1.5 * var(--rounding-radius)) calc(1.5 * var(--rounding-radius)) 0px 0px !important;
+}
+
+.tab-line {
+	display: none !important;
+}
+
+.tab-content & div[selected="true"] {
+	background-color: var(--sidebar-background) !important;
+}
+
+#folderPaneSplitter {
+	background-color: var(--sidebar-background) !important;
+	border-color: transparent !important;
+}
+
+#messagePaneSplitter {
+	background-color: var(--tree-view-bg) !important;
+	border-color: transparent !important;
+}
