@@ -66,12 +66,9 @@
   background-color: black !important;
 }
 
-#folderPaneSplitter {
-  background-color: var(--sidebar-background-color) !important;
-  border-color: transparent !important;
-}
-
+#folderPaneSplitter,
 #messagePaneSplitter {
   background-color: var(--tree-view-bg) !important;
   border-color: transparent !important;
+  margin: 0px !important;
 }

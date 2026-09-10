@@ -1,67 +1,67 @@
 {
-	"manifest_version": 2,
-	"name": "Dark Flat Rounded Theme",
-	"version": "1.0.1",
-	"description": "A dark flat theme with rounded corners for Thunderbird.",
-	"author": "Peanutt42",
-	"homepage_url": "https://codeberg.org/Peanutt42/dark-flat-rounded-thunderbird-theme",
-	"icons": {
-		"32": "icon.svg"
-	},
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "peanutt42.dark-flat-rounded-theme@addons.thunderbird.net",
-			"strict_min_version": "102.0"
-		}
-	},
-	"theme_experiment": {
-		"stylesheet": "style.css",
-		"colors": {
-			"maillist": "--maillist-bg"
-		}
-	},
-	"theme": {
-		"colors": {
-			"bookmark_text": "white",
-			"button_background_active": "#535b6b",
-			"button_background_hover": "#535b6b",
-			"icons": "white",
-			"icons_attention": "white",
-			"frame": "#1E1E1E",
-			"frame_inactive": "#101114",
-			"popup": "black",
-			"popup_border": "white",
-			"popup_highlight": "white",
-			"popup_highlight_text": "#1E1E1E",
-			"popup_text": "white",
-			"sidebar": "#0d0d0d",
-			"sidebar_border": "#18181C",
-			"sidebar_highlight": "#535b6b",
-			"sidebar_highlight_text": "white",
-			"sidebar_text": "white",
-			"tab_background_text": "white",
-			"tab_line": "transparent",
-			"tab_loading": "#8ccfb0",
-			"tab_selected": "#18181C",
-			"tab_text": "white",
-			"toolbar": "#343437",
-			"toolbar_bottom_separator": "transparent",
-			"toolbar_field": "#282830",
-			"toolbar_field_border": "#282830",
-			"toolbar_field_border_focus": "white",
-			"toolbar_field_focus": "#18181C",
-			"toolbar_field_highlight": "white",
-			"toolbar_field_highlight_text": "#18181C",
-			"toolbar_field_text": "white",
-			"toolbar_field_text_focus": "white",
-			"toolbar_text": "white",
-			"toolbar_top_separator": "transparent",
-			"toolbar_vertical_separator": "transparent",
-			"maillist": "#000002"
-		},
-		"properties": {
-			"color_scheme": "dark",
-			"content_color_scheme": "dark"
-		}
-	}
+  "manifest_version": 2,
+  "name": "Dark Flat Rounded Theme",
+  "version": "1.0.2",
+  "description": "A dark flat theme with rounded corners for Thunderbird.",
+  "author": "Peanutt42",
+  "homepage_url": "https://codeberg.org/Peanutt42/dark-flat-rounded-thunderbird-theme",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "peanutt42.dark-flat-rounded-theme@addons.thunderbird.net",
+      "strict_min_version": "102.0"
+    }
+  },
+  "theme_experiment": {
+    "stylesheet": "style.css",
+    "colors": {
+      "maillist": "--maillist-bg"
+    }
+  },
+  "theme": {
+    "colors": {
+      "bookmark_text": "white",
+      "button_background_active": "#535b6b",
+      "button_background_hover": "#535b6b",
+      "icons": "white",
+      "icons_attention": "white",
+      "frame": "#1E1E1E",
+      "frame_inactive": "#101114",
+      "popup": "black",
+      "popup_border": "white",
+      "popup_highlight": "white",
+      "popup_highlight_text": "#1E1E1E",
+      "popup_text": "white",
+      "sidebar": "#0d0d0d",
+      "sidebar_border": "#18181C",
+      "sidebar_highlight": "#535b6b",
+      "sidebar_highlight_text": "white",
+      "sidebar_text": "white",
+      "tab_background_text": "white",
+      "tab_line": "transparent",
+      "tab_loading": "#8ccfb0",
+      "tab_selected": "#18181C",
+      "tab_text": "white",
+      "toolbar": "#343437",
+      "toolbar_bottom_separator": "transparent",
+      "toolbar_field": "#282830",
+      "toolbar_field_border": "#282830",
+      "toolbar_field_border_focus": "white",
+      "toolbar_field_focus": "#18181C",
+      "toolbar_field_highlight": "white",
+      "toolbar_field_highlight_text": "#18181C",
+      "toolbar_field_text": "white",
+      "toolbar_field_text_focus": "white",
+      "toolbar_text": "white",
+      "toolbar_top_separator": "transparent",
+      "toolbar_vertical_separator": "transparent",
+      "maillist": "#000002"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    }
+  }
 }
