@@ -1,3 +1,8 @@
+/* Thunderbird renamed --lwt-accent-color to --lwt-frame in 157 */
+:root[lwtheme] {
+  --lwt-frame: var(--lwt-accent-color);
+}
+
 :root {
   /* custom theme property */
   --rounding-radius: 8px;
